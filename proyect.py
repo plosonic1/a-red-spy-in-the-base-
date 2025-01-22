@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 # Configura tu token aquí
-TOKEN = "MTMzMTcwNDI3MjY5MzIzNTg3Mw.GEjDyn.uhyG1FsaDCXUojTHbQ5V4FzA4MT1UtvOhaDAr0"
+TOKEN = ""
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="?", intents=intents)
@@ -77,4 +77,4 @@ async def meet(ctx, *, character: str = ""):
         await ctx.send("No reconozco a ese personaje. Intenta con: scout, soldier, pyro, demoman, heavy, engineer, medic, sniper, spy.")
 
 
-bot.run("MTMzMTcwNDI3MjY5MzIzNTg3Mw.GEjDyn.uhyG1FsaDCXUojTHbQ5V4FzA4MT1UtvOhaDAr0")
+bot.run("lo borro por si acaso")
